@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+.container{
+    margin:auto;
+    margin-top: 80px;
+    height: 380px;
+    width: 380px;
+    background-color: white;
+    padding: 10px;
+}
+
+.img-container{
+    height: 200px;
+    width: 350px;
+    /* border: 1px solid black; */
+    margin: auto;
+    /* margin-top: 15px; */
+
+}
+
+.course-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.course-heading{
+    font-weight: bold;
+    font-size: 22px;
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.price-main-container{
+    width: 280px;
+    margin-left: 15px;
+    box-shadow: 0px -1px rgb(168, 166, 166);
+    padding-top: 25px;
+}
+
+
+.new-price, .old-price{
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+
+.new-price{
+    color: blue;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.discount{
+    background-color: rgb(13, 141, 150);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 15px;
+}
